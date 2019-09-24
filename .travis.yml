@@ -3,10 +3,10 @@ services:
   - docker
 
 before_install:
-  - docker build -t hwlassoow/react-test -f ./client/Dockerfile.dev ./client
+  - docker build -t hwlassow/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run hwlassoow/react-test npm test -- --coverage
+  - docker run hwlassow/react-test npm test -- --coverage
 
 after_success:
   - docker build -t hwlassow/multi-client ./client
