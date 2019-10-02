@@ -12,8 +12,10 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Welcome to React</h1>
+            <h1 className="App-title">Fibonacci Calculator</h1>
+            <a href="https://upload.wikimedia.org/wikipedia/commons/e/ec/NautilusCutawayLogarithmicSpiral-withGoldenSpiral.jpg">  </a>.
             <Link to="/">Home</Link>
+            <Link to="/">https://pt.wikipedia.org/wiki/Sequência_de_Fibonacci</Link>
             <Link to="/otherpage">Other Page</Link>
           </header>
           <div>
